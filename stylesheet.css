@@ -1,6 +1,6 @@
 body {
     margin: 0 0 0 0;
-    background-color: lightgrey;
+    background-color: white;
 
 }
 #header{
@@ -46,11 +46,12 @@ li a:hover{
 }
 #home{
 	width: 100%;
-	height: 760px;
+	height: 770px;
 	background-image: url('https://static.pexels.com/photos/7106/macbook-computer-clean-hero.jpg');
-	background-size: 100% 760px;
+	background-size: 100% 770px;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
+	margin-bottom: 0px;
 }
 #intro{
 	padding-top: 250px;
@@ -70,3 +71,65 @@ li a:hover{
 	font-family: "Andale Mono", AndaleMono, monospace;
 
 }
+
+#about{
+	width:100%;
+	height:600px;
+	background-color: #F8F8FF;
+}
+
+#aboutme{
+	vertical-align:top;
+	text-align: center;
+	height:500px;
+	width: 30%;
+	padding-left: 75px;
+	display: inline-block;
+	background-color: #F8F8FF;
+	padding-top: 100px;
+	font-size: 14px;
+	font-family: Futura, Tahoma, sans-serif;
+}
+#pic{
+	vertical-align: top;
+	padding-top: 100px;
+	text-align: center;
+	height:500px;
+	width:24%;
+	display:inline-block;
+	background-color: #F8F8FF;
+}
+
+#info{
+	padding-top: 100px;
+	padding-left: 75px;
+	font-size: 14px;
+	font-family: Futura, Tahoma, sans-serif;
+	vertical-align: top;
+	height:500px;
+	width: 425px;
+	display:inline-block;
+	background-color: #F8F8FF;
+}
+
+#resume{
+	vertical-align: top;
+	height:770px;
+	width:100%;
+	background-color: lightgrey;
+}
+
+*{
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
