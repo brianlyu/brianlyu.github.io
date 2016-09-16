@@ -10,11 +10,11 @@
 		<div id="header">
 			<h1><strong>B&nbsp;R&nbsp;I&nbsp;A&nbsp;N&nbsp;&nbsp;L&nbsp;Y&nbsp;U</strong></h1>
 			<div id = "navbar">
-				<ul>
-					<li><a href="index.html#homeS">HOME</a></li>
-						<li><a href="index.html#aboutS">ABOUT</a></li>
-						<li><a href="index.html#portS">MyPORTFOLIO</a></li>
-						<li><a href="https://brianlyu.github.io/">CONTACT</a></li>
+				<ul id="navlist">
+					<li class = "bar"><a href="index.html#homeS">HOME</a></li>
+					<li class = "bar"><a href="index.html#aboutS">ABOUT</a></li>
+					<li class = "bar"><a href="index.html#portS">MyPORTFOLIO</a></li>
+					<li class = "bar"><a href="index.html#contactS">CONTACT</a></li>
 				</ul>
 			</div>
 		</div>
@@ -23,7 +23,7 @@
 		<a name="homeS"></a>
 			<div id = "home">
 				<h1 id = "intro">Hi, I'm Brian!</h1>
-				<h2 id = "intro2">Computer Engineer, University of California San Diego</h2>
+				<h2 id = "intro2" style="line-height:0.6">Computer Engineer, University of California San Diego<p>This website is currently in progress!</h2>
 			</div>
 
 			<div id = "about">
@@ -32,31 +32,89 @@
 					<p style="font-size:30px;text-align: left">
 						Personal Information
 					<p style="font-size: 14px"> 
-						<strong>Email</strong>: brianlyu96@gmail.com<br><br>
-						<strong>Location</strong>: San Diego<br><br>
-						<strong>University</strong>: University of California, San Diego<br><br>
-						<strong>Year & Age</strong>: Junior, 20<br><br>
-						<strong>Degree</strong>: Bachelor of Science, Computer Engineering<br><br>
-						<strong>Expected Graduation</strong>: March 2018
+						<strong style="font-size: 16px">Email</strong>: brianlyu96@gmail.com<br><br>
+						<strong style="font-size: 16px">Location</strong>: San Diego<br><br>
+						<strong style="font-size: 16px">University</strong>: University of California, San Diego<br><br>
+						<strong style="font-size: 16px">Year & Age</strong>: Junior, 20<br><br>
+						<strong style="font-size: 16px">Degree</strong>: Bachelor of Science, Computer Engineering<br><br>
+						<strong style="font-size: 16px">Expected Graduation</strong>: March 2018
 				</div>
 				<div id = "pic">
-					<img style="border-style: solid; border-width: 5px; border-color: white;box-shadow: 10px 10px 5px #888888;" src ="https://scontent.fsnc1-1.fna.fbcdn.net/v/t35.0-12/14329380_10210270957273342_1055044207_o.jpg?oh=24578c4d9c75fe4688a6416c47b907c0&oe=57DA979E" width="275" height="350"/>
+					<img style="border-style: solid; border-width: 5px; border-radius: 4px; border-color: white;box-shadow: 10px 10px 5px #888888;" src ="https://scontent.fsnc1-1.fna.fbcdn.net/v/t35.0-12/14329380_10210270957273342_1055044207_o.jpg?oh=24578c4d9c75fe4688a6416c47b907c0&oe=57DA979E" width="275" height="350"/>
 				</div>
 				<div id = "aboutme">
 					<p style="font-size:30px; text-align: left;">
 					More About Me
 					<p>
-					<strong">Nice To Meet You!</strong>
+					<strong style="font-size: 16px">Nice To Meet You!</strong>
 					<em style="line-height:2.5">I'm currently pursuing a B.S. in Computer Engineering, with an focus in software engineering and full-stack development. I hope to obtain an internship for the summer of 2017, one that will provide invaluable experience towards my growth as an engineer. I'm constantly striving to further develop my professional and interpersonal skills as well. In my free time, I'm an avid fan of music, hiking, and basketball!</em>
 				</div>
 			</div>
 			<a name="portS"></a>
+
+			<div id = "skillsheader">
+				<h1 id = "skillsintro">Projects | Skills | Experience</h1>
+			</div>
+
 			<div id="resume">
-				
+				<div id = "skillsection">
+					My Skills
+					<br>
+					<ul> 
+						<li>Java</li>
+						<li>C++</li>
+						<li>SQL / MySQL</li>
+						<li>HTML & CSS</li>
+						<li>Bash Scripting</li>
+						<li>Analog Circuit Design</li>
+						<li>Website Build&Design</li>
+						<li>Arduino Uno</li>
+						<li>JavaScript</li>
+						<li>Android Studios</li>
+					</ul>
+				</div>
+				<div id = "linesection">
+					<hr id="vLine">
+				</div>
+
+				<div id = "resumesection">
+					Interested In Learning More?
+					<p style="font-size:14px;"> Check out my resume for more details!
+					<br>
+					<br>
+					<img style="border-style: solid; border-radius: 2px; border-width: 1px; border-color: grey;box-shadow: 10px 10px 15px  1px #888888;" src="https://scontent-atl3-1.xx.fbcdn.net/v/t35.0-12/14329357_10210288728317607_1385876551_o.png?oh=69a356150fe5c5d4b823a0967bec49f7&oe=57DD758F" height="470" width="350">
+					<div id = "button">
+						<a href="https://brianlyu.github.io/LyuResume.pdf"><strong style="color:black;font-family: Verdana, serif;font-size:12px;vertical-align:top;">DOWNLOAD RESUME</strong></a>
+					</div> <p>
+				</div>
+
 			</div>
+			<a name="contactS"></a>
 			<div id = "contact">
-			
+				Questions? Inquiries? Leave a Message!
+				<form action="/my-handling-form-page" method="post">
+ 					<div>
+        				<label for="name">Name:</label>
+        				<input type="text" id="name" name="user_name" />
+    				</div>
+    				<div>
+        				<label for="mail">E-mail:</label>
+        				<input type="email" id="mail" name="user_mail" />
+    				</div>
+    				<div>
+        				<label for="subject">Subject:</label>
+        				<input type="text" id="subject" name="user_subject" />
+    				</div>
+    				<div>
+        				<label for="msg">Message:</label>
+        				<textarea id="msg" name="user_message"></textarea>
+    				</div>
+    				<div class="button">
+        				<button type="submit">Send Message</button>
+    				</div>
+				</form>
 			</div>
+
 			<div id = "endpage">
 			<p style="text-align:center; font-size:14px; font-family: Andale Mono, AndaleMono, monospace;">
 				<a href="https://www.instagram.com/brianlyu/"> <img src="https://www.seeklogo.net/wp-content/uploads/2016/06/Instagram-logo.png" height="40" width="40"> </a> &nbsp;&nbsp;
