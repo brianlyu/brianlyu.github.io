@@ -215,7 +215,7 @@ hr {
 	font-family: "Andale Mono", AndaleMono, monospace;
 	text-align: center;
 	padding-top: 50px;
-	height: 350px;
+	height: 100%;
 	background-image: url('https://static.pexels.com/photos/7106/macbook-computer-clean-hero.jpg');
 	background-size: 100% 800px;
 	background-attachment: fixed;
