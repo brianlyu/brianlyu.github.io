@@ -6,7 +6,6 @@ body {
 
 }
 #header{
-	position: fixed;
 	margin-top: 0px;
 	width:92%;
 	height:10%;
@@ -273,7 +272,6 @@ textarea {
 #endpage{
 	height:10%;
 }
-
 
 
 
