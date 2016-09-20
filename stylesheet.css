@@ -217,7 +217,7 @@ hr {
 	font-family: "Andale Mono", AndaleMono, monospace;
 	text-align: center;
 	padding-top: 50px;
-	height: 100%;
+	height: 500px;
 	background-image: url('https://static.pexels.com/photos/7106/macbook-computer-clean-hero.jpg');
 	background-size: 100% 800px;
 	background-attachment: fixed;
@@ -230,13 +230,13 @@ form {
 	color: white;
     /* Just to center the form on the page */
     margin: 0 auto;
-    width: 800px;
+    width: 900px;
     /* To see the outline of the form */
     padding: 20px;
 }
 
 form div + div {
-    margin-top: 1em;
+    margin-top: 20px;
 }
 label {
     /* To make sure that all labels have the same size and are properly aligned */
@@ -278,7 +278,9 @@ textarea {
 }
 
 
-
+#endpage{
+	height:10%;
+}
 
 
 
