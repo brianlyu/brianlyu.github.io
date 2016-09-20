@@ -225,7 +225,7 @@ hr {
 
 }
 form {
-	font-size:13px;
+	font-size:15px;
 	text-align: center;
 	color: white;
     /* Just to center the form on the page */
@@ -280,6 +280,7 @@ textarea {
 
 #endpage{
 	height:10%;
+	background-color: red;
 }
 
 
